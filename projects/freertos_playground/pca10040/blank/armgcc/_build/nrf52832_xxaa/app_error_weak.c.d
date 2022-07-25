@@ -43,17 +43,21 @@ _build/nrf52832_xxaa/app_error_weak.c.o: \
  ../../../src/components/libraries/util/nrf_assert.h \
  ../../../src/components/libraries/experimental_section_vars/nrf_section.h \
  ../../../src/components/libraries/util/nordic_common.h \
+ ../../../src/components/libraries/strerror/nrf_strerror.h \
+ ../../../src/components/libraries/util/sdk_errors.h \
  ../../../src/components/libraries/log/src/nrf_log_internal.h \
  ../../../src/components/libraries/util/app_util.h \
  ../../../src/components/libraries/log/nrf_log_instance.h \
  ../../../src/components/libraries/log/nrf_log_types.h \
  ../../../src/components/libraries/log/nrf_log_types.h \
  ../../../src/components/libraries/log/nrf_log_ctrl.h \
- ../../../src/components/libraries/util/sdk_errors.h \
  ../../../src/components/libraries/log/src/nrf_log_ctrl_internal.h \
  ../../../src/components/libraries/log/nrf_log_backend_interface.h \
+ ../../../src/components/libraries/memobj/nrf_memobj.h \
+ /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
+ ../../../src/components/libraries/balloc/nrf_balloc.h \
  ../../../src/components/libraries/util/app_util_platform.h \
- ../../../src/components/libraries/strerror/nrf_strerror.h
+ ../../../src/components/libraries/util/app_util_platform.h
 ../../../src/components/libraries/util/app_error.h:
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
 /usr/include/newlib/stdio.h:
@@ -106,14 +110,19 @@ _build/nrf52832_xxaa/app_error_weak.c.o: \
 ../../../src/components/libraries/util/nrf_assert.h:
 ../../../src/components/libraries/experimental_section_vars/nrf_section.h:
 ../../../src/components/libraries/util/nordic_common.h:
+../../../src/components/libraries/strerror/nrf_strerror.h:
+../../../src/components/libraries/util/sdk_errors.h:
 ../../../src/components/libraries/log/src/nrf_log_internal.h:
 ../../../src/components/libraries/util/app_util.h:
 ../../../src/components/libraries/log/nrf_log_instance.h:
 ../../../src/components/libraries/log/nrf_log_types.h:
 ../../../src/components/libraries/log/nrf_log_types.h:
 ../../../src/components/libraries/log/nrf_log_ctrl.h:
-../../../src/components/libraries/util/sdk_errors.h:
 ../../../src/components/libraries/log/src/nrf_log_ctrl_internal.h:
 ../../../src/components/libraries/log/nrf_log_backend_interface.h:
+../../../src/components/libraries/memobj/nrf_memobj.h:
+/usr/include/newlib/stdlib.h:
+/usr/include/newlib/machine/stdlib.h:
+../../../src/components/libraries/balloc/nrf_balloc.h:
 ../../../src/components/libraries/util/app_util_platform.h:
-../../../src/components/libraries/strerror/nrf_strerror.h:
+../../../src/components/libraries/util/app_util_platform.h:

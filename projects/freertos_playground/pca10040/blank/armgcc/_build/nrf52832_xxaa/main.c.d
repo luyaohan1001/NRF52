@@ -1,11 +1,6 @@
 _build/nrf52832_xxaa/main.c.o: ../../../main.c \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- ../../../src/external/freertos/source/include/FreeRTOS.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
- ../../../config/FreeRTOSConfig.h \
- ../../../src/components/libraries/util/app_util_platform.h \
- ../../../src/modules/nrfx/mdk/compiler_abstraction.h \
  ../../../src/modules/nrfx/mdk/nrf.h \
  ../../../src/modules/nrfx/mdk/nrf52.h \
  ../../../src/components/toolchain/cmsis/include/core_cm4.h \
@@ -18,6 +13,24 @@ _build/nrf52832_xxaa/main.c.o: ../../../main.c \
  ../../../src/modules/nrfx/mdk/nrf51_to_nrf52.h \
  ../../../src/modules/nrfx/mdk/nrf52_name_change.h \
  ../../../src/modules/nrfx/mdk/compiler_abstraction.h \
+ ../../../src/components/libraries/util/nordic_common.h \
+ ../../../src/components/boards/boards.h \
+ ../../../src/modules/nrfx/hal/nrf_gpio.h \
+ ../../../src/modules/nrfx/nrfx.h \
+ ../../../src/integration/nrfx/nrfx_config.h ../config/sdk_config.h \
+ ../../../src/modules/nrfx/drivers/nrfx_common.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ ../../../src/modules/nrfx/mdk/nrf_peripherals.h \
+ ../../../src/modules/nrfx/mdk/nrf52832_peripherals.h \
+ ../../../src/integration/nrfx/nrfx_glue.h \
+ ../../../src/integration/nrfx/legacy/apply_old_config.h \
+ ../../../src/modules/nrfx/soc/nrfx_irqs.h \
+ ../../../src/modules/nrfx/soc/nrfx_irqs_nrf52832.h \
+ ../../../src/components/libraries/util/nrf_assert.h \
+ ../../../src/components/libraries/util/app_util.h \
+ ../../../src/modules/nrfx/mdk/compiler_abstraction.h \
+ ../../../src/components/libraries/util/nordic_common.h \
+ ../../../src/components/libraries/util/app_util_platform.h \
  ../../../src/components/libraries/util/nrf_assert.h \
  ../../../src/components/libraries/util/app_error.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
@@ -34,52 +47,35 @@ _build/nrf52832_xxaa/main.c.o: ../../../main.c \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
  ../../../src/components/libraries/util/sdk_errors.h \
  ../../../src/components/drivers_nrf/nrf_soc_nosd/nrf_error.h \
- ../../../src/components/libraries/util/nordic_common.h \
  ../../../src/components/libraries/util/app_error_weak.h \
- ../../../src/components/libraries/util/nrf_assert.h \
- ../../../src/external/freertos/source/include/projdefs.h \
- ../../../src/external/freertos/source/include/portable.h \
- ../../../src/external/freertos/source/include/deprecated_definitions.h \
- ../../../src/external/freertos/portable/GCC/nrf52/portmacro.h \
- ../../../src/external/freertos/portable/CMSIS/nrf52/portmacro_cmsis.h \
- ../../../src/components/libraries/util/app_util.h \
- ../../../src/external/freertos/source/include/mpu_wrappers.h \
- ../../../src/external/freertos/source/include/task.h \
- ../../../src/external/freertos/source/include/list.h \
- ../../../src/external/freertos/source/include/timers.h \
- ../../../src/external/freertos/source/include/task.h \
- ../../../src/components/libraries/bsp/bsp.h \
- ../../../src/components/boards/boards.h \
- ../../../src/modules/nrfx/hal/nrf_gpio.h \
- ../../../src/modules/nrfx/nrfx.h \
- ../../../src/integration/nrfx/nrfx_config.h ../config/sdk_config.h \
- ../../../src/modules/nrfx/drivers/nrfx_common.h \
- ../../../src/modules/nrfx/mdk/nrf_peripherals.h \
- ../../../src/modules/nrfx/mdk/nrf52832_peripherals.h \
- ../../../src/integration/nrfx/nrfx_glue.h \
- ../../../src/integration/nrfx/legacy/apply_old_config.h \
- ../../../src/modules/nrfx/soc/nrfx_irqs.h \
- ../../../src/modules/nrfx/soc/nrfx_irqs_nrf52832.h \
- ../../../src/components/libraries/util/nordic_common.h \
  ../../../src/modules/nrfx/soc/nrfx_coredep.h \
  ../../../src/modules/nrfx/soc/nrfx_atomic.h \
  ../../../src/components/libraries/util/sdk_errors.h \
  ../../../src/components/libraries/util/sdk_resources.h \
  ../../../src/modules/nrfx/drivers/nrfx_errors.h \
  ../../../src/components/boards/pca10040.h \
- ../../../src/components/libraries/button/app_button.h \
- ../../../src/components/libraries/util/app_error.h \
- ../../../src/integration/nrfx/legacy/nrf_drv_clock.h \
- ../../../src/modules/nrfx/drivers/include/nrfx_clock.h \
- ../../../src/modules/nrfx/hal/nrf_clock.h \
- ../../../src/modules/nrfx/drivers/include/nrfx_power_clock.h
+ ../../../src/components/libraries/delay/nrf_delay.h \
+ ../../../src/components/libraries/log/nrf_log.h \
+ ../../../src/components/libraries/util/sdk_common.h \
+ /usr/include/newlib/string.h /usr/include/newlib/sys/string.h \
+ ../../../src/components/libraries/util/sdk_os.h \
+ ../../../src/components/libraries/util/app_util.h \
+ ../../../src/components/libraries/util/sdk_macros.h \
+ ../../../src/components/libraries/experimental_section_vars/nrf_section.h \
+ ../../../src/components/libraries/strerror/nrf_strerror.h \
+ ../../../src/components/libraries/log/src/nrf_log_internal.h \
+ ../../../src/components/libraries/log/nrf_log_instance.h \
+ ../../../src/components/libraries/log/nrf_log_types.h \
+ ../../../src/components/libraries/log/nrf_log_types.h \
+ ../../../src/components/libraries/log/nrf_log_ctrl.h \
+ ../../../src/components/libraries/log/src/nrf_log_ctrl_internal.h \
+ ../../../src/components/libraries/log/nrf_log_backend_interface.h \
+ ../../../src/components/libraries/memobj/nrf_memobj.h \
+ /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
+ ../../../src/components/libraries/balloc/nrf_balloc.h \
+ ../../../src/components/libraries/log/nrf_log_default_backends.h
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
-../../../src/external/freertos/source/include/FreeRTOS.h:
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
-../../../config/FreeRTOSConfig.h:
-../../../src/components/libraries/util/app_util_platform.h:
-../../../src/modules/nrfx/mdk/compiler_abstraction.h:
 ../../../src/modules/nrfx/mdk/nrf.h:
 ../../../src/modules/nrfx/mdk/nrf52.h:
 ../../../src/components/toolchain/cmsis/include/core_cm4.h:
@@ -92,6 +88,25 @@ _build/nrf52832_xxaa/main.c.o: ../../../main.c \
 ../../../src/modules/nrfx/mdk/nrf51_to_nrf52.h:
 ../../../src/modules/nrfx/mdk/nrf52_name_change.h:
 ../../../src/modules/nrfx/mdk/compiler_abstraction.h:
+../../../src/components/libraries/util/nordic_common.h:
+../../../src/components/boards/boards.h:
+../../../src/modules/nrfx/hal/nrf_gpio.h:
+../../../src/modules/nrfx/nrfx.h:
+../../../src/integration/nrfx/nrfx_config.h:
+../config/sdk_config.h:
+../../../src/modules/nrfx/drivers/nrfx_common.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
+../../../src/modules/nrfx/mdk/nrf_peripherals.h:
+../../../src/modules/nrfx/mdk/nrf52832_peripherals.h:
+../../../src/integration/nrfx/nrfx_glue.h:
+../../../src/integration/nrfx/legacy/apply_old_config.h:
+../../../src/modules/nrfx/soc/nrfx_irqs.h:
+../../../src/modules/nrfx/soc/nrfx_irqs_nrf52832.h:
+../../../src/components/libraries/util/nrf_assert.h:
+../../../src/components/libraries/util/app_util.h:
+../../../src/modules/nrfx/mdk/compiler_abstraction.h:
+../../../src/components/libraries/util/nordic_common.h:
+../../../src/components/libraries/util/app_util_platform.h:
 ../../../src/components/libraries/util/nrf_assert.h:
 ../../../src/components/libraries/util/app_error.h:
 /usr/include/newlib/stdio.h:
@@ -116,43 +131,32 @@ _build/nrf52832_xxaa/main.c.o: ../../../main.c \
 /usr/include/newlib/sys/stdio.h:
 ../../../src/components/libraries/util/sdk_errors.h:
 ../../../src/components/drivers_nrf/nrf_soc_nosd/nrf_error.h:
-../../../src/components/libraries/util/nordic_common.h:
 ../../../src/components/libraries/util/app_error_weak.h:
-../../../src/components/libraries/util/nrf_assert.h:
-../../../src/external/freertos/source/include/projdefs.h:
-../../../src/external/freertos/source/include/portable.h:
-../../../src/external/freertos/source/include/deprecated_definitions.h:
-../../../src/external/freertos/portable/GCC/nrf52/portmacro.h:
-../../../src/external/freertos/portable/CMSIS/nrf52/portmacro_cmsis.h:
-../../../src/components/libraries/util/app_util.h:
-../../../src/external/freertos/source/include/mpu_wrappers.h:
-../../../src/external/freertos/source/include/task.h:
-../../../src/external/freertos/source/include/list.h:
-../../../src/external/freertos/source/include/timers.h:
-../../../src/external/freertos/source/include/task.h:
-../../../src/components/libraries/bsp/bsp.h:
-../../../src/components/boards/boards.h:
-../../../src/modules/nrfx/hal/nrf_gpio.h:
-../../../src/modules/nrfx/nrfx.h:
-../../../src/integration/nrfx/nrfx_config.h:
-../config/sdk_config.h:
-../../../src/modules/nrfx/drivers/nrfx_common.h:
-../../../src/modules/nrfx/mdk/nrf_peripherals.h:
-../../../src/modules/nrfx/mdk/nrf52832_peripherals.h:
-../../../src/integration/nrfx/nrfx_glue.h:
-../../../src/integration/nrfx/legacy/apply_old_config.h:
-../../../src/modules/nrfx/soc/nrfx_irqs.h:
-../../../src/modules/nrfx/soc/nrfx_irqs_nrf52832.h:
-../../../src/components/libraries/util/nordic_common.h:
 ../../../src/modules/nrfx/soc/nrfx_coredep.h:
 ../../../src/modules/nrfx/soc/nrfx_atomic.h:
 ../../../src/components/libraries/util/sdk_errors.h:
 ../../../src/components/libraries/util/sdk_resources.h:
 ../../../src/modules/nrfx/drivers/nrfx_errors.h:
 ../../../src/components/boards/pca10040.h:
-../../../src/components/libraries/button/app_button.h:
-../../../src/components/libraries/util/app_error.h:
-../../../src/integration/nrfx/legacy/nrf_drv_clock.h:
-../../../src/modules/nrfx/drivers/include/nrfx_clock.h:
-../../../src/modules/nrfx/hal/nrf_clock.h:
-../../../src/modules/nrfx/drivers/include/nrfx_power_clock.h:
+../../../src/components/libraries/delay/nrf_delay.h:
+../../../src/components/libraries/log/nrf_log.h:
+../../../src/components/libraries/util/sdk_common.h:
+/usr/include/newlib/string.h:
+/usr/include/newlib/sys/string.h:
+../../../src/components/libraries/util/sdk_os.h:
+../../../src/components/libraries/util/app_util.h:
+../../../src/components/libraries/util/sdk_macros.h:
+../../../src/components/libraries/experimental_section_vars/nrf_section.h:
+../../../src/components/libraries/strerror/nrf_strerror.h:
+../../../src/components/libraries/log/src/nrf_log_internal.h:
+../../../src/components/libraries/log/nrf_log_instance.h:
+../../../src/components/libraries/log/nrf_log_types.h:
+../../../src/components/libraries/log/nrf_log_types.h:
+../../../src/components/libraries/log/nrf_log_ctrl.h:
+../../../src/components/libraries/log/src/nrf_log_ctrl_internal.h:
+../../../src/components/libraries/log/nrf_log_backend_interface.h:
+../../../src/components/libraries/memobj/nrf_memobj.h:
+/usr/include/newlib/stdlib.h:
+/usr/include/newlib/machine/stdlib.h:
+../../../src/components/libraries/balloc/nrf_balloc.h:
+../../../src/components/libraries/log/nrf_log_default_backends.h:

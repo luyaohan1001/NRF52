@@ -49,6 +49,7 @@ _build/nrf52832_xxaa/nrf_balloc.c.o: \
  ../../../src/components/libraries/log/nrf_log_instance.h \
  ../../../src/components/libraries/log/nrf_log_types.h \
  ../../../src/components/libraries/log/nrf_log.h \
+ ../../../src/components/libraries/strerror/nrf_strerror.h \
  ../../../src/components/libraries/log/src/nrf_log_internal.h \
  ../../../src/components/libraries/log/nrf_log_types.h
 ../../../src/components/libraries/util/sdk_common.h:
@@ -109,5 +110,6 @@ _build/nrf52832_xxaa/nrf_balloc.c.o: \
 ../../../src/components/libraries/log/nrf_log_instance.h:
 ../../../src/components/libraries/log/nrf_log_types.h:
 ../../../src/components/libraries/log/nrf_log.h:
+../../../src/components/libraries/strerror/nrf_strerror.h:
 ../../../src/components/libraries/log/src/nrf_log_internal.h:
 ../../../src/components/libraries/log/nrf_log_types.h:

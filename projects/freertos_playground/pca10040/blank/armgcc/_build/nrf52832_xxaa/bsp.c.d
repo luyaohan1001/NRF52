@@ -59,7 +59,10 @@ _build/nrf52832_xxaa/bsp.c.o: ../../../src/components/libraries/bsp/bsp.c \
  ../../../src/components/libraries/util/app_error.h \
  ../../../src/components/libraries/bsp/bsp_config.h \
  ../../../src/components/libraries/timer/app_timer.h \
- ../../../config/FreeRTOSConfig.h
+ ../../../src/components/libraries/log/nrf_log_instance.h \
+ ../../../src/components/libraries/experimental_section_vars/nrf_section.h \
+ ../../../src/components/libraries/log/nrf_log_types.h \
+ ../../../src/components/libraries/sortlist/nrf_sortlist.h
 ../../../src/components/libraries/bsp/bsp.h:
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
@@ -129,4 +132,7 @@ _build/nrf52832_xxaa/bsp.c.o: ../../../src/components/libraries/bsp/bsp.c \
 ../../../src/components/libraries/util/app_error.h:
 ../../../src/components/libraries/bsp/bsp_config.h:
 ../../../src/components/libraries/timer/app_timer.h:
-../../../config/FreeRTOSConfig.h:
+../../../src/components/libraries/log/nrf_log_instance.h:
+../../../src/components/libraries/experimental_section_vars/nrf_section.h:
+../../../src/components/libraries/log/nrf_log_types.h:
+../../../src/components/libraries/sortlist/nrf_sortlist.h:

@@ -63,6 +63,7 @@ _build/nrf52832_xxaa/nrfx_clock.c.o: \
  ../../../src/components/libraries/util/app_util.h \
  ../../../src/components/libraries/util/sdk_macros.h \
  ../../../src/components/libraries/experimental_section_vars/nrf_section.h \
+ ../../../src/components/libraries/strerror/nrf_strerror.h \
  ../../../src/components/libraries/log/src/nrf_log_internal.h \
  ../../../src/components/libraries/log/nrf_log_instance.h \
  ../../../src/components/libraries/log/nrf_log_types.h \
@@ -140,6 +141,7 @@ _build/nrf52832_xxaa/nrfx_clock.c.o: \
 ../../../src/components/libraries/util/app_util.h:
 ../../../src/components/libraries/util/sdk_macros.h:
 ../../../src/components/libraries/experimental_section_vars/nrf_section.h:
+../../../src/components/libraries/strerror/nrf_strerror.h:
 ../../../src/components/libraries/log/src/nrf_log_internal.h:
 ../../../src/components/libraries/log/nrf_log_instance.h:
 ../../../src/components/libraries/log/nrf_log_types.h:

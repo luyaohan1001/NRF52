@@ -58,6 +58,10 @@ _build/nrf52832_xxaa/app_timer_freertos.c.o: \
  ../../../src/components/libraries/timer/app_timer.h \
  ../../../src/components/libraries/util/app_error.h \
  ../../../src/components/libraries/util/nordic_common.h \
+ ../../../src/components/libraries/log/nrf_log_instance.h \
+ ../../../src/components/libraries/experimental_section_vars/nrf_section.h \
+ ../../../src/components/libraries/log/nrf_log_types.h \
+ ../../../src/components/libraries/sortlist/nrf_sortlist.h \
  /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h
 ../../../src/components/libraries/util/sdk_common.h:
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
@@ -126,5 +130,9 @@ _build/nrf52832_xxaa/app_timer_freertos.c.o: \
 ../../../src/components/libraries/timer/app_timer.h:
 ../../../src/components/libraries/util/app_error.h:
 ../../../src/components/libraries/util/nordic_common.h:
+../../../src/components/libraries/log/nrf_log_instance.h:
+../../../src/components/libraries/experimental_section_vars/nrf_section.h:
+../../../src/components/libraries/log/nrf_log_types.h:
+../../../src/components/libraries/sortlist/nrf_sortlist.h:
 /usr/include/newlib/stdlib.h:
 /usr/include/newlib/machine/stdlib.h:

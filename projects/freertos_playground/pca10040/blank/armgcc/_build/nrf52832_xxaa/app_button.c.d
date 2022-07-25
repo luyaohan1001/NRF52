@@ -62,16 +62,17 @@ _build/nrf52832_xxaa/app_button.c.o: \
  ../../../src/components/libraries/util/sdk_resources.h \
  ../../../src/modules/nrfx/drivers/nrfx_errors.h \
  ../../../src/components/libraries/timer/app_timer.h \
- ../../../config/FreeRTOSConfig.h \
+ ../../../src/components/libraries/log/nrf_log_instance.h \
+ ../../../src/components/libraries/experimental_section_vars/nrf_section.h \
+ ../../../src/components/libraries/log/nrf_log_types.h \
+ ../../../src/components/libraries/sortlist/nrf_sortlist.h \
  ../../../src/integration/nrfx/legacy/nrf_drv_gpiote.h \
  ../../../src/modules/nrfx/drivers/include/nrfx_gpiote.h \
  ../../../src/modules/nrfx/hal/nrf_gpiote.h \
  ../../../src/modules/nrfx/hal/nrf_gpio.h \
  ../../../src/components/libraries/log/nrf_log.h \
- ../../../src/components/libraries/experimental_section_vars/nrf_section.h \
+ ../../../src/components/libraries/strerror/nrf_strerror.h \
  ../../../src/components/libraries/log/src/nrf_log_internal.h \
- ../../../src/components/libraries/log/nrf_log_instance.h \
- ../../../src/components/libraries/log/nrf_log_types.h \
  ../../../src/components/libraries/log/nrf_log_types.h
 ../../../src/components/libraries/util/sdk_common.h:
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
@@ -144,14 +145,15 @@ _build/nrf52832_xxaa/app_button.c.o: \
 ../../../src/components/libraries/util/sdk_resources.h:
 ../../../src/modules/nrfx/drivers/nrfx_errors.h:
 ../../../src/components/libraries/timer/app_timer.h:
-../../../config/FreeRTOSConfig.h:
+../../../src/components/libraries/log/nrf_log_instance.h:
+../../../src/components/libraries/experimental_section_vars/nrf_section.h:
+../../../src/components/libraries/log/nrf_log_types.h:
+../../../src/components/libraries/sortlist/nrf_sortlist.h:
 ../../../src/integration/nrfx/legacy/nrf_drv_gpiote.h:
 ../../../src/modules/nrfx/drivers/include/nrfx_gpiote.h:
 ../../../src/modules/nrfx/hal/nrf_gpiote.h:
 ../../../src/modules/nrfx/hal/nrf_gpio.h:
 ../../../src/components/libraries/log/nrf_log.h:
-../../../src/components/libraries/experimental_section_vars/nrf_section.h:
+../../../src/components/libraries/strerror/nrf_strerror.h:
 ../../../src/components/libraries/log/src/nrf_log_internal.h:
-../../../src/components/libraries/log/nrf_log_instance.h:
-../../../src/components/libraries/log/nrf_log_types.h:
 ../../../src/components/libraries/log/nrf_log_types.h:

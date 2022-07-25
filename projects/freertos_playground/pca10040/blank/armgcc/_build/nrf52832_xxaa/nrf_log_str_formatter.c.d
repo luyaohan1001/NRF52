@@ -32,7 +32,33 @@ _build/nrf52832_xxaa/nrf_log_str_formatter.c.o: \
  ../../../src/modules/nrfx/mdk/nrf52_name_change.h \
  ../../../src/modules/nrfx/mdk/compiler_abstraction.h \
  ../../../src/components/libraries/util/sdk_macros.h \
- ../../../src/components/libraries/util/nrf_assert.h
+ ../../../src/components/libraries/util/nrf_assert.h \
+ ../../../src/components/libraries/log/nrf_log_str_formatter.h \
+ ../../../src/external/fprintf/nrf_fprintf.h \
+ ../../../src/components/libraries/log/nrf_log_ctrl.h \
+ ../../../src/components/libraries/util/sdk_errors.h \
+ ../../../src/components/libraries/log/nrf_log_types.h \
+ ../../../src/components/libraries/log/src/nrf_log_ctrl_internal.h \
+ ../../../src/components/libraries/log/nrf_log_backend_interface.h \
+ ../../../src/components/libraries/memobj/nrf_memobj.h \
+ /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
+ ../../../src/components/libraries/balloc/nrf_balloc.h \
+ ../../../src/components/libraries/util/app_util_platform.h \
+ ../../../src/components/libraries/util/app_error.h \
+ /usr/include/newlib/stdio.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+ /usr/include/newlib/sys/types.h /usr/include/newlib/sys/_stdint.h \
+ /usr/include/newlib/sys/_pthreadtypes.h \
+ /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
+ ../../../src/components/libraries/util/app_error_weak.h \
+ ../../../src/components/libraries/util/app_util.h \
+ ../../../src/components/libraries/log/nrf_log_instance.h \
+ ../../../src/components/libraries/experimental_section_vars/nrf_section.h \
+ ../../../src/components/libraries/util/nordic_common.h \
+ ../../../src/components/libraries/log/src/nrf_log_internal.h \
+ ../../../src/components/libraries/log/nrf_log_types.h \
+ ../../../src/components/libraries/log/nrf_log_ctrl.h \
+ /usr/include/newlib/ctype.h
 ../../../src/components/libraries/util/sdk_common.h:
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
@@ -73,3 +99,32 @@ _build/nrf52832_xxaa/nrf_log_str_formatter.c.o: \
 ../../../src/modules/nrfx/mdk/compiler_abstraction.h:
 ../../../src/components/libraries/util/sdk_macros.h:
 ../../../src/components/libraries/util/nrf_assert.h:
+../../../src/components/libraries/log/nrf_log_str_formatter.h:
+../../../src/external/fprintf/nrf_fprintf.h:
+../../../src/components/libraries/log/nrf_log_ctrl.h:
+../../../src/components/libraries/util/sdk_errors.h:
+../../../src/components/libraries/log/nrf_log_types.h:
+../../../src/components/libraries/log/src/nrf_log_ctrl_internal.h:
+../../../src/components/libraries/log/nrf_log_backend_interface.h:
+../../../src/components/libraries/memobj/nrf_memobj.h:
+/usr/include/newlib/stdlib.h:
+/usr/include/newlib/machine/stdlib.h:
+../../../src/components/libraries/balloc/nrf_balloc.h:
+../../../src/components/libraries/util/app_util_platform.h:
+../../../src/components/libraries/util/app_error.h:
+/usr/include/newlib/stdio.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
+/usr/include/newlib/sys/types.h:
+/usr/include/newlib/sys/_stdint.h:
+/usr/include/newlib/sys/_pthreadtypes.h:
+/usr/include/newlib/machine/types.h:
+/usr/include/newlib/sys/stdio.h:
+../../../src/components/libraries/util/app_error_weak.h:
+../../../src/components/libraries/util/app_util.h:
+../../../src/components/libraries/log/nrf_log_instance.h:
+../../../src/components/libraries/experimental_section_vars/nrf_section.h:
+../../../src/components/libraries/util/nordic_common.h:
+../../../src/components/libraries/log/src/nrf_log_internal.h:
+../../../src/components/libraries/log/nrf_log_types.h:
+../../../src/components/libraries/log/nrf_log_ctrl.h:
+/usr/include/newlib/ctype.h:
