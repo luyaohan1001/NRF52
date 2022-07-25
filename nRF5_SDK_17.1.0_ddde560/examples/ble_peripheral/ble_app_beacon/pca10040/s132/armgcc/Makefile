@@ -281,16 +281,17 @@ $(foreach target, $(TARGETS), $(call define_target, $(target)))
 .PHONY: flash flash_softdevice erase
 
 # Flash the program
-flash: default
+flash:
 	@echo Flashing: $(OUTPUT_DIRECTORY)/nrf52832_xxaa.hex
-	nrfjprog -f nrf52 --program $(OUTPUT_DIRECTORY)/nrf52832_xxaa.hex --sectorerase
-	nrfjprog -f nrf52 --reset
+	sudo openocd -f interface/stlink.cfg -f target/nrf52.cfg -c "init; reset halt; program _build/nrf52832_xxaa.hex; reset; exit;"
+	
+	
 
 # Flash softdevice
 flash_softdevice:
 	@echo Flashing: s132_nrf52_7.2.0_softdevice.hex
 	nrfjprog -f nrf52 --program $(SDK_ROOT)/components/softdevice/s132/hex/s132_nrf52_7.2.0_softdevice.hex --sectorerase
-	nrfjprog -f nrf52 --reset
+	
 
 erase:
 	nrfjprog -f nrf52 --eraseall

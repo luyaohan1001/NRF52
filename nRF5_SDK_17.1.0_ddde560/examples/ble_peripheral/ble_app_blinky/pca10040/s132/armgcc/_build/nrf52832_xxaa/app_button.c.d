@@ -1,6 +1,6 @@
 _build/nrf52832_xxaa/app_button.c.o: \
- ../../../../../../components/libraries/button/app_button.c \
- ../../../../../../components/libraries/util/sdk_common.h \
+ ../../../src/components/libraries/button/app_button.c \
+ ../../../src/components/libraries/util/sdk_common.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
@@ -13,77 +13,77 @@ _build/nrf52832_xxaa/app_button.c.o: \
  /usr/include/newlib/machine/_default_types.h \
  /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
  /usr/include/newlib/sys/string.h ../config/sdk_config.h \
- ../../../../../../components/libraries/util/nordic_common.h \
- ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
- ../../../../../../components/libraries/util/sdk_os.h \
- ../../../../../../components/libraries/util/sdk_errors.h \
- ../../../../../../components/softdevice/s132/headers/nrf_error.h \
- ../../../../../../components/libraries/util/app_util.h \
- ../../../../../../modules/nrfx/mdk/nrf.h \
- ../../../../../../modules/nrfx/mdk/nrf52.h \
- ../../../../../../components/toolchain/cmsis/include/core_cm4.h \
- ../../../../../../components/toolchain/cmsis/include/cmsis_version.h \
- ../../../../../../components/toolchain/cmsis/include/cmsis_compiler.h \
- ../../../../../../components/toolchain/cmsis/include/cmsis_gcc.h \
- ../../../../../../components/toolchain/cmsis/include/mpu_armv7.h \
- ../../../../../../modules/nrfx/mdk/system_nrf52.h \
- ../../../../../../modules/nrfx/mdk/nrf52_bitfields.h \
- ../../../../../../modules/nrfx/mdk/nrf51_to_nrf52.h \
- ../../../../../../modules/nrfx/mdk/nrf52_name_change.h \
- ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
- ../../../../../../components/softdevice/s132/headers/nrf52/nrf_mbr.h \
- ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
- ../../../../../../components/libraries/util/sdk_macros.h \
- ../../../../../../components/libraries/util/nrf_assert.h \
- ../../../../../../components/libraries/button/app_button.h \
- ../../../../../../components/libraries/util/app_error.h \
+ ../../../src/components/libraries/util/nordic_common.h \
+ ../../../src/modules/nrfx/mdk/compiler_abstraction.h \
+ ../../../src/components/libraries/util/sdk_os.h \
+ ../../../src/components/libraries/util/sdk_errors.h \
+ ../../../src/components/softdevice/s132/headers/nrf_error.h \
+ ../../../src/components/libraries/util/app_util.h \
+ ../../../src/modules/nrfx/mdk/nrf.h \
+ ../../../src/modules/nrfx/mdk/nrf52.h \
+ ../../../src/components/toolchain/cmsis/include/core_cm4.h \
+ ../../../src/components/toolchain/cmsis/include/cmsis_version.h \
+ ../../../src/components/toolchain/cmsis/include/cmsis_compiler.h \
+ ../../../src/components/toolchain/cmsis/include/cmsis_gcc.h \
+ ../../../src/components/toolchain/cmsis/include/mpu_armv7.h \
+ ../../../src/modules/nrfx/mdk/system_nrf52.h \
+ ../../../src/modules/nrfx/mdk/nrf52_bitfields.h \
+ ../../../src/modules/nrfx/mdk/nrf51_to_nrf52.h \
+ ../../../src/modules/nrfx/mdk/nrf52_name_change.h \
+ ../../../src/modules/nrfx/mdk/compiler_abstraction.h \
+ ../../../src/components/softdevice/s132/headers/nrf52/nrf_mbr.h \
+ ../../../src/components/softdevice/s132/headers/nrf_svc.h \
+ ../../../src/components/libraries/util/sdk_macros.h \
+ ../../../src/components/libraries/util/nrf_assert.h \
+ ../../../src/components/libraries/button/app_button.h \
+ ../../../src/components/libraries/util/app_error.h \
  /usr/include/newlib/stdio.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
  /usr/include/newlib/sys/types.h /usr/include/newlib/sys/_stdint.h \
  /usr/include/newlib/sys/_pthreadtypes.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
- ../../../../../../components/libraries/util/app_error_weak.h \
- ../../../../../../modules/nrfx/hal/nrf_gpio.h \
- ../../../../../../modules/nrfx/nrfx.h \
- ../../../../../../integration/nrfx/nrfx_config.h \
- ../../../../../../modules/nrfx/drivers/nrfx_common.h \
- ../../../../../../modules/nrfx/mdk/nrf_peripherals.h \
- ../../../../../../modules/nrfx/mdk/nrf52832_peripherals.h \
- ../../../../../../integration/nrfx/nrfx_glue.h \
- ../../../../../../integration/nrfx/legacy/apply_old_config.h \
- ../../../../../../modules/nrfx/soc/nrfx_irqs.h \
- ../../../../../../modules/nrfx/soc/nrfx_irqs_nrf52832.h \
- ../../../../../../components/libraries/util/nrf_assert.h \
- ../../../../../../components/libraries/util/app_util.h \
- ../../../../../../components/libraries/util/nordic_common.h \
- ../../../../../../components/libraries/util/app_util_platform.h \
- ../../../../../../components/softdevice/s132/headers/nrf_soc.h \
- ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
- ../../../../../../components/softdevice/s132/headers/nrf_error.h \
- ../../../../../../components/softdevice/s132/headers/nrf_error_soc.h \
- ../../../../../../components/softdevice/s132/headers/nrf_nvic.h \
- ../../../../../../components/libraries/util/app_error.h \
- ../../../../../../modules/nrfx/soc/nrfx_coredep.h \
- ../../../../../../modules/nrfx/soc/nrfx_atomic.h \
- ../../../../../../components/libraries/util/sdk_errors.h \
- ../../../../../../components/libraries/util/sdk_resources.h \
- ../../../../../../components/softdevice/s132/headers/nrf_sd_def.h \
- ../../../../../../components/softdevice/s132/headers/nrf_soc.h \
- ../../../../../../modules/nrfx/drivers/nrfx_errors.h \
- ../../../../../../components/libraries/timer/app_timer.h \
- ../../../../../../components/libraries/log/nrf_log_instance.h \
- ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \
- ../../../../../../components/libraries/log/nrf_log_types.h \
- ../../../../../../components/libraries/sortlist/nrf_sortlist.h \
- ../../../../../../integration/nrfx/legacy/nrf_drv_gpiote.h \
- ../../../../../../modules/nrfx/drivers/include/nrfx_gpiote.h \
- ../../../../../../modules/nrfx/hal/nrf_gpiote.h \
- ../../../../../../modules/nrfx/hal/nrf_gpio.h \
- ../../../../../../components/libraries/log/nrf_log.h \
- ../../../../../../components/libraries/strerror/nrf_strerror.h \
- ../../../../../../components/libraries/log/src/nrf_log_internal.h \
- ../../../../../../components/libraries/log/nrf_log_types.h
-../../../../../../components/libraries/util/sdk_common.h:
+ ../../../src/components/libraries/util/app_error_weak.h \
+ ../../../src/modules/nrfx/hal/nrf_gpio.h \
+ ../../../src/modules/nrfx/nrfx.h \
+ ../../../src/integration/nrfx/nrfx_config.h \
+ ../../../src/modules/nrfx/drivers/nrfx_common.h \
+ ../../../src/modules/nrfx/mdk/nrf_peripherals.h \
+ ../../../src/modules/nrfx/mdk/nrf52832_peripherals.h \
+ ../../../src/integration/nrfx/nrfx_glue.h \
+ ../../../src/integration/nrfx/legacy/apply_old_config.h \
+ ../../../src/modules/nrfx/soc/nrfx_irqs.h \
+ ../../../src/modules/nrfx/soc/nrfx_irqs_nrf52832.h \
+ ../../../src/components/libraries/util/nrf_assert.h \
+ ../../../src/components/libraries/util/app_util.h \
+ ../../../src/components/libraries/util/nordic_common.h \
+ ../../../src/components/libraries/util/app_util_platform.h \
+ ../../../src/components/softdevice/s132/headers/nrf_soc.h \
+ ../../../src/components/softdevice/s132/headers/nrf_svc.h \
+ ../../../src/components/softdevice/s132/headers/nrf_error.h \
+ ../../../src/components/softdevice/s132/headers/nrf_error_soc.h \
+ ../../../src/components/softdevice/s132/headers/nrf_nvic.h \
+ ../../../src/components/libraries/util/app_error.h \
+ ../../../src/modules/nrfx/soc/nrfx_coredep.h \
+ ../../../src/modules/nrfx/soc/nrfx_atomic.h \
+ ../../../src/components/libraries/util/sdk_errors.h \
+ ../../../src/components/libraries/util/sdk_resources.h \
+ ../../../src/components/softdevice/s132/headers/nrf_sd_def.h \
+ ../../../src/components/softdevice/s132/headers/nrf_soc.h \
+ ../../../src/modules/nrfx/drivers/nrfx_errors.h \
+ ../../../src/components/libraries/timer/app_timer.h \
+ ../../../src/components/libraries/log/nrf_log_instance.h \
+ ../../../src/components/libraries/experimental_section_vars/nrf_section.h \
+ ../../../src/components/libraries/log/nrf_log_types.h \
+ ../../../src/components/libraries/sortlist/nrf_sortlist.h \
+ ../../../src/integration/nrfx/legacy/nrf_drv_gpiote.h \
+ ../../../src/modules/nrfx/drivers/include/nrfx_gpiote.h \
+ ../../../src/modules/nrfx/hal/hal/nrf_gpiote.h \
+ ../../../src/modules/nrfx/hal/hal/nrf_gpio.h \
+ ../../../src/components/libraries/log/nrf_log.h \
+ ../../../src/components/libraries/strerror/nrf_strerror.h \
+ ../../../src/components/libraries/log/src/nrf_log_internal.h \
+ ../../../src/components/libraries/log/nrf_log_types.h
+../../../src/components/libraries/util/sdk_common.h:
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
 /usr/include/newlib/string.h:
@@ -103,30 +103,30 @@ _build/nrf52832_xxaa/app_button.c.o: \
 /usr/include/newlib/sys/cdefs.h:
 /usr/include/newlib/sys/string.h:
 ../config/sdk_config.h:
-../../../../../../components/libraries/util/nordic_common.h:
-../../../../../../modules/nrfx/mdk/compiler_abstraction.h:
-../../../../../../components/libraries/util/sdk_os.h:
-../../../../../../components/libraries/util/sdk_errors.h:
-../../../../../../components/softdevice/s132/headers/nrf_error.h:
-../../../../../../components/libraries/util/app_util.h:
-../../../../../../modules/nrfx/mdk/nrf.h:
-../../../../../../modules/nrfx/mdk/nrf52.h:
-../../../../../../components/toolchain/cmsis/include/core_cm4.h:
-../../../../../../components/toolchain/cmsis/include/cmsis_version.h:
-../../../../../../components/toolchain/cmsis/include/cmsis_compiler.h:
-../../../../../../components/toolchain/cmsis/include/cmsis_gcc.h:
-../../../../../../components/toolchain/cmsis/include/mpu_armv7.h:
-../../../../../../modules/nrfx/mdk/system_nrf52.h:
-../../../../../../modules/nrfx/mdk/nrf52_bitfields.h:
-../../../../../../modules/nrfx/mdk/nrf51_to_nrf52.h:
-../../../../../../modules/nrfx/mdk/nrf52_name_change.h:
-../../../../../../modules/nrfx/mdk/compiler_abstraction.h:
-../../../../../../components/softdevice/s132/headers/nrf52/nrf_mbr.h:
-../../../../../../components/softdevice/s132/headers/nrf_svc.h:
-../../../../../../components/libraries/util/sdk_macros.h:
-../../../../../../components/libraries/util/nrf_assert.h:
-../../../../../../components/libraries/button/app_button.h:
-../../../../../../components/libraries/util/app_error.h:
+../../../src/components/libraries/util/nordic_common.h:
+../../../src/modules/nrfx/mdk/compiler_abstraction.h:
+../../../src/components/libraries/util/sdk_os.h:
+../../../src/components/libraries/util/sdk_errors.h:
+../../../src/components/softdevice/s132/headers/nrf_error.h:
+../../../src/components/libraries/util/app_util.h:
+../../../src/modules/nrfx/mdk/nrf.h:
+../../../src/modules/nrfx/mdk/nrf52.h:
+../../../src/components/toolchain/cmsis/include/core_cm4.h:
+../../../src/components/toolchain/cmsis/include/cmsis_version.h:
+../../../src/components/toolchain/cmsis/include/cmsis_compiler.h:
+../../../src/components/toolchain/cmsis/include/cmsis_gcc.h:
+../../../src/components/toolchain/cmsis/include/mpu_armv7.h:
+../../../src/modules/nrfx/mdk/system_nrf52.h:
+../../../src/modules/nrfx/mdk/nrf52_bitfields.h:
+../../../src/modules/nrfx/mdk/nrf51_to_nrf52.h:
+../../../src/modules/nrfx/mdk/nrf52_name_change.h:
+../../../src/modules/nrfx/mdk/compiler_abstraction.h:
+../../../src/components/softdevice/s132/headers/nrf52/nrf_mbr.h:
+../../../src/components/softdevice/s132/headers/nrf_svc.h:
+../../../src/components/libraries/util/sdk_macros.h:
+../../../src/components/libraries/util/nrf_assert.h:
+../../../src/components/libraries/button/app_button.h:
+../../../src/components/libraries/util/app_error.h:
 /usr/include/newlib/stdio.h:
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
 /usr/include/newlib/sys/types.h:
@@ -134,44 +134,44 @@ _build/nrf52832_xxaa/app_button.c.o: \
 /usr/include/newlib/sys/_pthreadtypes.h:
 /usr/include/newlib/machine/types.h:
 /usr/include/newlib/sys/stdio.h:
-../../../../../../components/libraries/util/app_error_weak.h:
-../../../../../../modules/nrfx/hal/nrf_gpio.h:
-../../../../../../modules/nrfx/nrfx.h:
-../../../../../../integration/nrfx/nrfx_config.h:
-../../../../../../modules/nrfx/drivers/nrfx_common.h:
-../../../../../../modules/nrfx/mdk/nrf_peripherals.h:
-../../../../../../modules/nrfx/mdk/nrf52832_peripherals.h:
-../../../../../../integration/nrfx/nrfx_glue.h:
-../../../../../../integration/nrfx/legacy/apply_old_config.h:
-../../../../../../modules/nrfx/soc/nrfx_irqs.h:
-../../../../../../modules/nrfx/soc/nrfx_irqs_nrf52832.h:
-../../../../../../components/libraries/util/nrf_assert.h:
-../../../../../../components/libraries/util/app_util.h:
-../../../../../../components/libraries/util/nordic_common.h:
-../../../../../../components/libraries/util/app_util_platform.h:
-../../../../../../components/softdevice/s132/headers/nrf_soc.h:
-../../../../../../components/softdevice/s132/headers/nrf_svc.h:
-../../../../../../components/softdevice/s132/headers/nrf_error.h:
-../../../../../../components/softdevice/s132/headers/nrf_error_soc.h:
-../../../../../../components/softdevice/s132/headers/nrf_nvic.h:
-../../../../../../components/libraries/util/app_error.h:
-../../../../../../modules/nrfx/soc/nrfx_coredep.h:
-../../../../../../modules/nrfx/soc/nrfx_atomic.h:
-../../../../../../components/libraries/util/sdk_errors.h:
-../../../../../../components/libraries/util/sdk_resources.h:
-../../../../../../components/softdevice/s132/headers/nrf_sd_def.h:
-../../../../../../components/softdevice/s132/headers/nrf_soc.h:
-../../../../../../modules/nrfx/drivers/nrfx_errors.h:
-../../../../../../components/libraries/timer/app_timer.h:
-../../../../../../components/libraries/log/nrf_log_instance.h:
-../../../../../../components/libraries/experimental_section_vars/nrf_section.h:
-../../../../../../components/libraries/log/nrf_log_types.h:
-../../../../../../components/libraries/sortlist/nrf_sortlist.h:
-../../../../../../integration/nrfx/legacy/nrf_drv_gpiote.h:
-../../../../../../modules/nrfx/drivers/include/nrfx_gpiote.h:
-../../../../../../modules/nrfx/hal/nrf_gpiote.h:
-../../../../../../modules/nrfx/hal/nrf_gpio.h:
-../../../../../../components/libraries/log/nrf_log.h:
-../../../../../../components/libraries/strerror/nrf_strerror.h:
-../../../../../../components/libraries/log/src/nrf_log_internal.h:
-../../../../../../components/libraries/log/nrf_log_types.h:
+../../../src/components/libraries/util/app_error_weak.h:
+../../../src/modules/nrfx/hal/nrf_gpio.h:
+../../../src/modules/nrfx/nrfx.h:
+../../../src/integration/nrfx/nrfx_config.h:
+../../../src/modules/nrfx/drivers/nrfx_common.h:
+../../../src/modules/nrfx/mdk/nrf_peripherals.h:
+../../../src/modules/nrfx/mdk/nrf52832_peripherals.h:
+../../../src/integration/nrfx/nrfx_glue.h:
+../../../src/integration/nrfx/legacy/apply_old_config.h:
+../../../src/modules/nrfx/soc/nrfx_irqs.h:
+../../../src/modules/nrfx/soc/nrfx_irqs_nrf52832.h:
+../../../src/components/libraries/util/nrf_assert.h:
+../../../src/components/libraries/util/app_util.h:
+../../../src/components/libraries/util/nordic_common.h:
+../../../src/components/libraries/util/app_util_platform.h:
+../../../src/components/softdevice/s132/headers/nrf_soc.h:
+../../../src/components/softdevice/s132/headers/nrf_svc.h:
+../../../src/components/softdevice/s132/headers/nrf_error.h:
+../../../src/components/softdevice/s132/headers/nrf_error_soc.h:
+../../../src/components/softdevice/s132/headers/nrf_nvic.h:
+../../../src/components/libraries/util/app_error.h:
+../../../src/modules/nrfx/soc/nrfx_coredep.h:
+../../../src/modules/nrfx/soc/nrfx_atomic.h:
+../../../src/components/libraries/util/sdk_errors.h:
+../../../src/components/libraries/util/sdk_resources.h:
+../../../src/components/softdevice/s132/headers/nrf_sd_def.h:
+../../../src/components/softdevice/s132/headers/nrf_soc.h:
+../../../src/modules/nrfx/drivers/nrfx_errors.h:
+../../../src/components/libraries/timer/app_timer.h:
+../../../src/components/libraries/log/nrf_log_instance.h:
+../../../src/components/libraries/experimental_section_vars/nrf_section.h:
+../../../src/components/libraries/log/nrf_log_types.h:
+../../../src/components/libraries/sortlist/nrf_sortlist.h:
+../../../src/integration/nrfx/legacy/nrf_drv_gpiote.h:
+../../../src/modules/nrfx/drivers/include/nrfx_gpiote.h:
+../../../src/modules/nrfx/hal/hal/nrf_gpiote.h:
+../../../src/modules/nrfx/hal/hal/nrf_gpio.h:
+../../../src/components/libraries/log/nrf_log.h:
+../../../src/components/libraries/strerror/nrf_strerror.h:
+../../../src/components/libraries/log/src/nrf_log_internal.h:
+../../../src/components/libraries/log/nrf_log_types.h:

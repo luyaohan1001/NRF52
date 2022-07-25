@@ -1,0 +1,1 @@
+/home/luyaohan1001/Scripts/file-management/nrf52832_sdk_related/convert-makefile.py
