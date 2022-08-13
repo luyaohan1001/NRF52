@@ -73,7 +73,28 @@ _build/nrf52832_xxaa/main.c.o: ../../../main.c \
  ../../../src/components/libraries/memobj/nrf_memobj.h \
  /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
  ../../../src/components/libraries/balloc/nrf_balloc.h \
- ../../../src/components/libraries/log/nrf_log_default_backends.h
+ ../../../src/components/libraries/log/nrf_log_default_backends.h \
+ ../../../src/external/freertos/source/include/FreeRTOS.h \
+ ../../../config/FreeRTOSConfig.h \
+ ../../../src/external/freertos/source/include/projdefs.h \
+ ../../../src/external/freertos/source/include/portable.h \
+ ../../../src/external/freertos/source/include/deprecated_definitions.h \
+ ../../../src/external/freertos/portable/GCC/nrf52/portmacro.h \
+ ../../../src/external/freertos/portable/CMSIS/nrf52/portmacro_cmsis.h \
+ ../../../src/external/freertos/source/include/mpu_wrappers.h \
+ ../../../src/external/freertos/source/include/task.h \
+ ../../../src/external/freertos/source/include/list.h \
+ ../../../src/external/freertos/source/include/timers.h \
+ ../../../src/external/freertos/source/include/task.h \
+ ../../../src/external/freertos/source/include/semphr.h \
+ ../../../src/external/freertos/source/include/queue.h \
+ ../../../src/components/libraries/bsp/bsp.h \
+ ../../../src/components/libraries/button/app_button.h \
+ ../../../src/components/libraries/util/app_error.h \
+ ../../../src/integration/nrfx/legacy/nrf_drv_clock.h \
+ ../../../src/modules/nrfx/drivers/include/nrfx_clock.h \
+ ../../../src/modules/nrfx/hal/nrf_clock.h \
+ ../../../src/modules/nrfx/drivers/include/nrfx_power_clock.h
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
 ../../../src/modules/nrfx/mdk/nrf.h:
@@ -160,3 +181,24 @@ _build/nrf52832_xxaa/main.c.o: ../../../main.c \
 /usr/include/newlib/machine/stdlib.h:
 ../../../src/components/libraries/balloc/nrf_balloc.h:
 ../../../src/components/libraries/log/nrf_log_default_backends.h:
+../../../src/external/freertos/source/include/FreeRTOS.h:
+../../../config/FreeRTOSConfig.h:
+../../../src/external/freertos/source/include/projdefs.h:
+../../../src/external/freertos/source/include/portable.h:
+../../../src/external/freertos/source/include/deprecated_definitions.h:
+../../../src/external/freertos/portable/GCC/nrf52/portmacro.h:
+../../../src/external/freertos/portable/CMSIS/nrf52/portmacro_cmsis.h:
+../../../src/external/freertos/source/include/mpu_wrappers.h:
+../../../src/external/freertos/source/include/task.h:
+../../../src/external/freertos/source/include/list.h:
+../../../src/external/freertos/source/include/timers.h:
+../../../src/external/freertos/source/include/task.h:
+../../../src/external/freertos/source/include/semphr.h:
+../../../src/external/freertos/source/include/queue.h:
+../../../src/components/libraries/bsp/bsp.h:
+../../../src/components/libraries/button/app_button.h:
+../../../src/components/libraries/util/app_error.h:
+../../../src/integration/nrfx/legacy/nrf_drv_clock.h:
+../../../src/modules/nrfx/drivers/include/nrfx_clock.h:
+../../../src/modules/nrfx/hal/nrf_clock.h:
+../../../src/modules/nrfx/drivers/include/nrfx_power_clock.h:

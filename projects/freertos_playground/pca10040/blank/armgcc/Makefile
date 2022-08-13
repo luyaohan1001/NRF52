@@ -243,6 +243,7 @@ SRC_FILES += \
   $(SDK_ROOT)/external/freertos/source/stream_buffer.c \
   $(SDK_ROOT)/external/freertos/source/tasks.c \
   $(SDK_ROOT)/external/freertos/source/timers.c \
+  $(SDK_ROOT)/integration/nrfx/legacy/nrf_drv_clock.c \
 
 # Include folders common to all targets
 INC_FOLDERS += \
@@ -333,6 +334,7 @@ INC_FOLDERS += \
   $(SDK_ROOT)/external/freertos/config \
   $(SDK_ROOT)/external/freertos/portable/CMSIS/nrf52 \
   $(SDK_ROOT)/external/freertos/portable/GCC/nrf52 \
+  $(SDK_ROOT)/integration/nrfx/legacy \
 
 #LIB_FILES += \
 #  $(SDK_ROOT)/external/nrf_cc310/lib/cortex-m4/hard-float/libnrf_cc310_0.9.13.a \
