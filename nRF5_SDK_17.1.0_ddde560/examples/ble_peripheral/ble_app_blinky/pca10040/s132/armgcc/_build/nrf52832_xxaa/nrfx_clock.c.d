@@ -62,7 +62,7 @@ _build/nrf52832_xxaa/nrfx_clock.c.o: \
  ../../../src/components/softdevice/s132/headers/nrf_soc.h \
  ../../../src/modules/nrfx/drivers/nrfx_errors.h \
  ../../../src/modules/nrfx/drivers/include/nrfx_clock.h \
- ../../../src/modules/nrfx/hal/hal/nrf_clock.h \
+ ../../../src/modules/nrfx/hal/nrf_clock.h \
  ../../../src/modules/nrfx/drivers/include/nrfx_power_clock.h \
  ../../../src/integration/nrfx/nrfx_log.h \
  ../../../src/components/libraries/log/nrf_log.h \
@@ -148,7 +148,7 @@ _build/nrf52832_xxaa/nrfx_clock.c.o: \
 ../../../src/components/softdevice/s132/headers/nrf_soc.h:
 ../../../src/modules/nrfx/drivers/nrfx_errors.h:
 ../../../src/modules/nrfx/drivers/include/nrfx_clock.h:
-../../../src/modules/nrfx/hal/hal/nrf_clock.h:
+../../../src/modules/nrfx/hal/nrf_clock.h:
 ../../../src/modules/nrfx/drivers/include/nrfx_power_clock.h:
 ../../../src/integration/nrfx/nrfx_log.h:
 ../../../src/components/libraries/log/nrf_log.h:

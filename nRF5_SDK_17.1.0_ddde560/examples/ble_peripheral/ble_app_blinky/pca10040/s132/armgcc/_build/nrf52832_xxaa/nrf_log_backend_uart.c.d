@@ -82,9 +82,9 @@ _build/nrf52832_xxaa/nrf_log_backend_uart.c.o: \
  ../../../src/components/softdevice/s132/headers/nrf_soc.h \
  ../../../src/modules/nrfx/drivers/nrfx_errors.h \
  ../../../src/modules/nrfx/drivers/include/nrfx_uarte.h \
- ../../../src/modules/nrfx/hal/hal/nrf_uarte.h \
+ ../../../src/modules/nrfx/hal/nrf_uarte.h \
  ../../../src/modules/nrfx/drivers/include/nrfx_uart.h \
- ../../../src/modules/nrfx/hal/hal/nrf_uart.h \
+ ../../../src/modules/nrfx/hal/nrf_uart.h \
  ../../../src/components/libraries/util/app_error.h
 ../../../src/components/libraries/util/sdk_common.h:
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
@@ -178,7 +178,7 @@ _build/nrf52832_xxaa/nrf_log_backend_uart.c.o: \
 ../../../src/components/softdevice/s132/headers/nrf_soc.h:
 ../../../src/modules/nrfx/drivers/nrfx_errors.h:
 ../../../src/modules/nrfx/drivers/include/nrfx_uarte.h:
-../../../src/modules/nrfx/hal/hal/nrf_uarte.h:
+../../../src/modules/nrfx/hal/nrf_uarte.h:
 ../../../src/modules/nrfx/drivers/include/nrfx_uart.h:
-../../../src/modules/nrfx/hal/hal/nrf_uart.h:
+../../../src/modules/nrfx/hal/nrf_uart.h:
 ../../../src/components/libraries/util/app_error.h:

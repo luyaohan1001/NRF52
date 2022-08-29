@@ -62,8 +62,8 @@ _build/nrf52832_xxaa/nrfx_gpiote.c.o: \
  ../../../src/components/softdevice/s132/headers/nrf_soc.h \
  ../../../src/modules/nrfx/drivers/nrfx_errors.h \
  ../../../src/modules/nrfx/drivers/include/nrfx_gpiote.h \
- ../../../src/modules/nrfx/hal/hal/nrf_gpiote.h \
- ../../../src/modules/nrfx/hal/hal/nrf_gpio.h \
+ ../../../src/modules/nrfx/hal/nrf_gpiote.h \
+ ../../../src/modules/nrfx/hal/nrf_gpio.h \
  ../../../src/modules/nrfx/drivers/include/nrf_bitmask.h \
  /usr/include/newlib/string.h /usr/include/newlib/sys/string.h \
  ../../../src/integration/nrfx/nrfx_log.h \
@@ -149,8 +149,8 @@ _build/nrf52832_xxaa/nrfx_gpiote.c.o: \
 ../../../src/components/softdevice/s132/headers/nrf_soc.h:
 ../../../src/modules/nrfx/drivers/nrfx_errors.h:
 ../../../src/modules/nrfx/drivers/include/nrfx_gpiote.h:
-../../../src/modules/nrfx/hal/hal/nrf_gpiote.h:
-../../../src/modules/nrfx/hal/hal/nrf_gpio.h:
+../../../src/modules/nrfx/hal/nrf_gpiote.h:
+../../../src/modules/nrfx/hal/nrf_gpio.h:
 ../../../src/modules/nrfx/drivers/include/nrf_bitmask.h:
 /usr/include/newlib/string.h:
 /usr/include/newlib/sys/string.h:

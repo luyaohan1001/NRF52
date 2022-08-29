@@ -80,7 +80,7 @@ _build/nrf52832_xxaa/app_timer2.c.o: \
  ../../../src/components/libraries/log/src/nrf_log_internal.h \
  ../../../src/components/libraries/log/nrf_log_types.h \
  ../../../src/components/libraries/timer/drv_rtc.h \
- ../../../src/modules/nrfx/hal/hal/nrf_rtc.h
+ ../../../src/modules/nrfx/hal/nrf_rtc.h
 ../../../src/components/libraries/timer/app_timer.h:
 ../config/sdk_config.h:
 ../../../src/components/libraries/util/app_error.h:
@@ -170,4 +170,4 @@ _build/nrf52832_xxaa/app_timer2.c.o: \
 ../../../src/components/libraries/log/src/nrf_log_internal.h:
 ../../../src/components/libraries/log/nrf_log_types.h:
 ../../../src/components/libraries/timer/drv_rtc.h:
-../../../src/modules/nrfx/hal/hal/nrf_rtc.h:
+../../../src/modules/nrfx/hal/nrf_rtc.h:

@@ -62,9 +62,9 @@ _build/nrf52832_xxaa/nrfx_uarte.c.o: \
  ../../../src/components/softdevice/s132/headers/nrf_soc.h \
  ../../../src/modules/nrfx/drivers/nrfx_errors.h \
  ../../../src/modules/nrfx/drivers/include/nrfx_uarte.h \
- ../../../src/modules/nrfx/hal/hal/nrf_uarte.h \
+ ../../../src/modules/nrfx/hal/nrf_uarte.h \
  ../../../src/modules/nrfx/drivers/src/prs/nrfx_prs.h \
- ../../../src/modules/nrfx/hal/hal/nrf_gpio.h \
+ ../../../src/modules/nrfx/hal/nrf_gpio.h \
  ../../../src/integration/nrfx/nrfx_log.h \
  ../../../src/components/libraries/log/nrf_log.h \
  ../../../src/components/libraries/util/sdk_common.h \
@@ -149,9 +149,9 @@ _build/nrf52832_xxaa/nrfx_uarte.c.o: \
 ../../../src/components/softdevice/s132/headers/nrf_soc.h:
 ../../../src/modules/nrfx/drivers/nrfx_errors.h:
 ../../../src/modules/nrfx/drivers/include/nrfx_uarte.h:
-../../../src/modules/nrfx/hal/hal/nrf_uarte.h:
+../../../src/modules/nrfx/hal/nrf_uarte.h:
 ../../../src/modules/nrfx/drivers/src/prs/nrfx_prs.h:
-../../../src/modules/nrfx/hal/hal/nrf_gpio.h:
+../../../src/modules/nrfx/hal/nrf_gpio.h:
 ../../../src/integration/nrfx/nrfx_log.h:
 ../../../src/components/libraries/log/nrf_log.h:
 ../../../src/components/libraries/util/sdk_common.h:

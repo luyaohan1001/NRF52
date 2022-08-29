@@ -63,7 +63,7 @@ _build/nrf52832_xxaa/drv_rtc.c.o: \
  ../../../src/modules/nrfx/drivers/nrfx_errors.h \
  ../../../src/components/libraries/delay/nrf_delay.h \
  ../../../src/components/libraries/timer/drv_rtc.h \
- ../../../src/modules/nrfx/hal/hal/nrf_rtc.h \
+ ../../../src/modules/nrfx/hal/nrf_rtc.h \
  ../../../src/components/libraries/log/nrf_log.h \
  ../../../src/components/libraries/util/sdk_common.h \
  /usr/include/newlib/string.h /usr/include/newlib/sys/string.h \
@@ -148,7 +148,7 @@ _build/nrf52832_xxaa/drv_rtc.c.o: \
 ../../../src/modules/nrfx/drivers/nrfx_errors.h:
 ../../../src/components/libraries/delay/nrf_delay.h:
 ../../../src/components/libraries/timer/drv_rtc.h:
-../../../src/modules/nrfx/hal/hal/nrf_rtc.h:
+../../../src/modules/nrfx/hal/nrf_rtc.h:
 ../../../src/components/libraries/log/nrf_log.h:
 ../../../src/components/libraries/util/sdk_common.h:
 /usr/include/newlib/string.h:

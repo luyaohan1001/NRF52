@@ -971,10 +971,10 @@ int main(void)
     gatt_init();
     advertising_init();
     services_init();
-    sensor_simulator_init();
+    // sensor_simulator_init();
     conn_params_init();
-    peer_manager_init();
-    application_timers_start();
+    // peer_manager_init();
+    // application_timers_start();
 
     // Create a FreeRTOS task for the BLE stack.
     // The task will run advertising_start() before entering its loop.

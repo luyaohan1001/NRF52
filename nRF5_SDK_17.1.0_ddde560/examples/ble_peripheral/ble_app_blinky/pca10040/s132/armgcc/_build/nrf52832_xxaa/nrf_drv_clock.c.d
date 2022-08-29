@@ -63,7 +63,7 @@ _build/nrf52832_xxaa/nrf_drv_clock.c.o: \
  ../../../src/components/softdevice/s132/headers/nrf_sd_def.h \
  ../../../src/components/softdevice/s132/headers/nrf_soc.h \
  ../../../src/modules/nrfx/drivers/nrfx_errors.h \
- ../../../src/modules/nrfx/hal/hal/nrf_clock.h \
+ ../../../src/modules/nrfx/hal/nrf_clock.h \
  ../../../src/modules/nrfx/drivers/include/nrfx_power_clock.h \
  ../../../src/components/softdevice/common/nrf_sdh.h \
  ../../../src/components/libraries/experimental_section_vars/nrf_section_iter.h \
@@ -74,7 +74,7 @@ _build/nrf52832_xxaa/nrf_drv_clock.c.o: \
  ../../../src/components/libraries/util/sdk_os.h \
  ../../../src/components/libraries/util/app_util.h \
  ../../../src/components/libraries/util/sdk_macros.h \
- ../../../src/modules/nrfx/hal/hal/nrf_wdt.h \
+ ../../../src/modules/nrfx/hal/nrf_wdt.h \
  ../../../src/components/libraries/log/nrf_log.h \
  ../../../src/components/libraries/experimental_section_vars/nrf_section.h \
  ../../../src/components/libraries/strerror/nrf_strerror.h \
@@ -154,7 +154,7 @@ _build/nrf52832_xxaa/nrf_drv_clock.c.o: \
 ../../../src/components/softdevice/s132/headers/nrf_sd_def.h:
 ../../../src/components/softdevice/s132/headers/nrf_soc.h:
 ../../../src/modules/nrfx/drivers/nrfx_errors.h:
-../../../src/modules/nrfx/hal/hal/nrf_clock.h:
+../../../src/modules/nrfx/hal/nrf_clock.h:
 ../../../src/modules/nrfx/drivers/include/nrfx_power_clock.h:
 ../../../src/components/softdevice/common/nrf_sdh.h:
 ../../../src/components/libraries/experimental_section_vars/nrf_section_iter.h:
@@ -166,7 +166,7 @@ _build/nrf52832_xxaa/nrf_drv_clock.c.o: \
 ../../../src/components/libraries/util/sdk_os.h:
 ../../../src/components/libraries/util/app_util.h:
 ../../../src/components/libraries/util/sdk_macros.h:
-../../../src/modules/nrfx/hal/hal/nrf_wdt.h:
+../../../src/modules/nrfx/hal/nrf_wdt.h:
 ../../../src/components/libraries/log/nrf_log.h:
 ../../../src/components/libraries/experimental_section_vars/nrf_section.h:
 ../../../src/components/libraries/strerror/nrf_strerror.h:

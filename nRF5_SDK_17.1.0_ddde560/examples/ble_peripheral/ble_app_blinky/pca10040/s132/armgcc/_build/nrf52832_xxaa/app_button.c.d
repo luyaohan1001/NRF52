@@ -77,8 +77,8 @@ _build/nrf52832_xxaa/app_button.c.o: \
  ../../../src/components/libraries/sortlist/nrf_sortlist.h \
  ../../../src/integration/nrfx/legacy/nrf_drv_gpiote.h \
  ../../../src/modules/nrfx/drivers/include/nrfx_gpiote.h \
- ../../../src/modules/nrfx/hal/hal/nrf_gpiote.h \
- ../../../src/modules/nrfx/hal/hal/nrf_gpio.h \
+ ../../../src/modules/nrfx/hal/nrf_gpiote.h \
+ ../../../src/modules/nrfx/hal/nrf_gpio.h \
  ../../../src/components/libraries/log/nrf_log.h \
  ../../../src/components/libraries/strerror/nrf_strerror.h \
  ../../../src/components/libraries/log/src/nrf_log_internal.h \
@@ -169,8 +169,8 @@ _build/nrf52832_xxaa/app_button.c.o: \
 ../../../src/components/libraries/sortlist/nrf_sortlist.h:
 ../../../src/integration/nrfx/legacy/nrf_drv_gpiote.h:
 ../../../src/modules/nrfx/drivers/include/nrfx_gpiote.h:
-../../../src/modules/nrfx/hal/hal/nrf_gpiote.h:
-../../../src/modules/nrfx/hal/hal/nrf_gpio.h:
+../../../src/modules/nrfx/hal/nrf_gpiote.h:
+../../../src/modules/nrfx/hal/nrf_gpio.h:
 ../../../src/components/libraries/log/nrf_log.h:
 ../../../src/components/libraries/strerror/nrf_strerror.h:
 ../../../src/components/libraries/log/src/nrf_log_internal.h:
